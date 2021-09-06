@@ -1,0 +1,10 @@
+<svg height='100px' width='100px'  fill="#000000" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 84 84" version="1.1" xml:space="preserve" style="" x="0px" y="0px" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.41421">
+<style>
+    svg,
+    circle,
+    path{
+        fill:#007ac4!important;
+        color:#007ac4!important; 
+    }
+</style>
+<g transform="matrix(0.903113,0,0,0.903113,1.57227,24.1413)"><path d="M47.869,16.669C57.262,16.669 64.888,24.294 64.888,33.687L64.888,56.31L24.533,56.31L24.533,33.687C24.533,24.294 32.159,16.669 41.551,16.669L47.869,16.669Z" style="" fill="black"></path></g><g transform="matrix(0.903113,0,0,0.903113,-0.859252,2.07997)"><path d="M25.847,72.529L2.365,72.529L2.365,49.906C2.365,40.514 9.991,32.888 19.383,32.888L25.701,32.888C31.516,32.888 36.653,35.811 39.723,40.265C31.83,41.742 25.848,48.674 25.848,56.993L25.848,72.527L25.847,72.529ZM39.728,40.264L39.727,40.27L39.723,40.265L39.728,40.264Z" style="" fill="black"></path></g><g transform="matrix(0.903113,0,0,0.903113,3.19487,9.67115)"><circle cx="42.914" cy="18.811" r="11.766" style="" fill="black"></circle></g><g transform="matrix(0.903113,0,0,0.903113,-20.1685,2.64238)"><circle cx="42.914" cy="18.811" r="11.766" style="" fill="black"></circle></g><g transform="matrix(-0.903113,0,0,0.903113,84.8593,2.07997)"><path d="M25.847,72.529L2.365,72.529L2.365,49.906C2.365,40.514 9.991,32.888 19.383,32.888L25.701,32.888C31.516,32.888 36.653,35.811 39.723,40.265C31.83,41.742 25.848,48.674 25.848,56.993L25.848,72.527L25.847,72.529ZM39.728,40.264L39.727,40.27L39.723,40.265L39.728,40.264Z" style="" fill="black"></path></g><g transform="matrix(-0.903113,0,0,0.903113,104.168,2.64238)"><circle cx="42.914" cy="18.811" r="11.766" style="" fill="black"></circle></g></svg>

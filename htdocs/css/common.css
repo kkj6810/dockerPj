@@ -1,0 +1,351 @@
+/***************************************************************************
+button
+***************************************************************************/
+.btn{
+    color: #000;
+    display: inline-block;
+    background: #eee;
+    transition: 0.5s;
+    font-size: 1rem;
+    padding: 9px 20px;
+    font-weight: 300;
+    border: 0;
+    cursor: pointer;
+}
+a.btn{
+    text-decoration: none;
+}
+.btn i{
+    padding-right: 5px;
+    font-size: 0.7rem;
+}
+.btn:hover{
+    background: #838383;
+    color: #fff;
+}
+
+
+
+/*detail*/
+.btn-detail{
+    color: #fff;
+    background: #f9aa33;
+}
+.btn-detail:hover{
+    background: #E37B22;
+    color: #fff;
+}
+
+/* delete */
+.btn-delete{
+    color: #fff;
+    background: #e02c2c;
+}
+.btn-delete:hover{
+    background: #F78472;
+}
+
+
+/*done*/
+.btn-done{
+    color: #fff;
+    background: #4cc02f;
+}
+.btn-done:hover{
+    background: #C0D97C;
+    color: #000;
+}
+
+/* delete */
+.btn-write{
+    color: #fff;
+    background: var(--sub-color);
+}
+.btn-write:hover{
+    background: #4194f3;
+}
+
+/* cancle */
+.btn-cancle{
+    color: #fff;
+    background: #adadad;
+}
+.btn-cancle:hover{
+    background: #6b6b6b;
+}
+
+
+
+/*size*/
+.btn.btn-sm{
+    font-size: 0.6rem;
+    padding: 5px 10px;
+}
+.btn.btn-lg{
+    font-size: 1.2rem;
+    padding: 10px 20px;
+}
+.btn.btn-radius{
+    border-radius: 30px;
+}
+
+/* sort */
+.btn-sort {
+  width: 0px;
+  height: 0px;
+  border-top:50px solid none;
+  border-bottom:50px solid red;
+  border-right: 50px solid transparent;
+  border-left: 50px solid  transparent;
+}
+
+
+
+/***************************************************************************
+card
+***************************************************************************/
+#bread{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10px;
+    height: 25px;
+}
+.card{
+    position: relative;
+    border-radius: 10px;
+    padding: 35px 20px;
+    background: white;
+    margin: 10px;
+}
+.card .title{
+    padding-bottom: 10px;
+    font-size: 1.5rem;
+}
+.title {
+  margin: 20px;
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.card:after{
+    content: "";
+    position: absolute;
+    border-radius: 10px;
+    width:20px;
+    height:20px;
+    top:10px;
+    right:10px;
+    background-color:  rgb(238, 238, 238);
+    filter: drop-shadow(0 -5px -5px 5px rgba(0,0,0,0.1));
+}
+.card:before{
+    content: "";
+    position: absolute;
+    border-radius: 10px;
+    width:20px;
+    height:20px;
+    top:10px;
+    left:10px;
+    background-color:  rgb(238, 238, 238);
+}
+.card .title{
+    text-align: center;
+    font-size: 2.5rem;
+    padding: 0 0 30px 0;
+}
+.card h3{
+    font-size: 1.5rem;
+    padding: 10px;
+} 
+
+
+
+.shadow{
+    filter: drop-shadow(0px 0px 5px rgba(0,0,0,0.1));
+}
+
+a.bread {
+  text-decoration: none;
+  color:#000;
+}
+
+
+/***************************************************************************
+thumbnail
+***************************************************************************/
+.thumbnail{
+    border-radius: 50%;
+    width: 100%;
+    height: auto;
+    
+}
+
+
+
+
+
+/***************************************************************************
+table
+***************************************************************************/
+table.list{
+    width: 100%;
+    font-weight: 300;
+    background-color: white;
+    /* border: 1px solid rgb(82, 82, 82); */
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+table.list thead tr{
+    background: var(--sub-color);
+    text-align: center;
+    font-size: 1.1rem;
+}
+table.list thead th{
+    color: var(--font-color-w);
+    padding: 10px;
+    font-weight: 400;
+}
+table.list tbody tr{
+    text-align: center;
+}
+table.list tbody td{
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+    font-size: 1.1rem;
+}
+
+table.list tbody tr td a{
+    text-decoration: none;
+}
+
+table.list thead > tr th:nth-child(1),
+  table.list tbody > tr td:nth-child(1){
+  text-align: left;
+}
+
+table.write{
+    width: 100%;
+    border-top: 2px solid rgb(231, 231, 231);
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+table.write td{
+    border-bottom: 1px solid #eee;
+    padding: 10px;
+    font-weight: 500;
+}
+table.write td:first-child{
+    font-size: 1.1rem;
+}
+table.write td input{
+    width: 100%;
+    padding: 10px;
+    border-color: #eee;
+    border: 1px solid #eee;
+    color: #9b9b9b;
+}
+table.write td textarea:focus,
+table.write td input:focus{
+    outline:1px solid #dadada;
+}
+table.write td select{
+    width: 100%;
+    padding: 10px;
+    border-color: #eee;
+}
+table.write td textarea{
+    width: 100%;
+    border-color: #eee;
+}
+table.write td .tilte{
+  font-size: 1.2rem;
+  padding-bottom: 5px;
+}
+
+table.quiz thead > tr th:nth-child(2),
+  table.quiz tbody > tr td:nth-child(2){
+  text-align: left;
+}
+
+
+.sortTable thead th i{
+  padding-top:7px;
+  font-size: .9rem;
+  cursor: pointer;
+}
+.sortTable thead th i:first-child{
+  position: absolute;
+}
+
+.sortTable thead th.sortType1 i:first-child{
+  color: red!important;
+}
+
+.sortTable thead th.sortType2 i:last-child{
+  color: red!important;
+}
+
+
+
+
+
+
+
+
+
+
+
+.hide{display: none;}
+
+
+.mt-5{ margin-top:5px }
+.mb-5{ margin-bottom:5px; }
+.ml-5{ margin-left:5px }
+.mr-5{ margin-right:5px }
+.pt-5{ padding-top:5px }
+.pb-5{ padding-bottom:5px; }
+.pl-5{ padding-left:5px }
+.pr-5{ padding-right:5px }
+
+.mt-10{ margin-top:10px }
+.mb-10{ margin-bottom:10px; }
+.ml-10{ margin-left:10px }
+.mr-10{ margin-right:10px }
+.pt-10{ padding-top:10px }
+.pb-10{ padding-bottom:10px; }
+.pl-10{ padding-left:10px }
+.pr-10{ padding-right:10px }
+
+
+.txt-nowrap{
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden; 
+  text-overflow: ellipsis;
+}
+
+
+.mask{
+  background: rgba(0,0,0,0.5);
+  position: absolute;
+  z-index: 997;
+  width: 100%;
+  height: 100%;
+  top:6px;
+  left:0;
+  display: none;
+}
+
+.mobile_show { display:none; }
+
+@media only screen and (max-width:1200px) {
+
+}
+@media only screen and (max-width:960px) {
+  .mobile_hide { display:none; }
+  .mobile_show { display:block; }
+}
+@media only screen and (max-width:640px) {
+  .mobile_hide { display:none; }
+  .mobile_show { display:block; }
+}
